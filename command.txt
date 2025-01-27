@@ -1,0 +1,5 @@
+ffmpeg -r 30 -loop 1 -i I:\1to2video\link.jpg -pix_fmt yuv420p -vcodec libx264 -b:v 900k -r:v 30 -preset medium -crf 30 -s 2160x1080 -vframes 150 -r 30 -t 5 a.mp4
+
+ffmpeg -f concat -i I:\1to2video\filelist.txt -c copy out.mp4
+
+python outvideo.py src out a.mp4
