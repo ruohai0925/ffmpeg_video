@@ -3,3 +3,7 @@ ffmpeg -r 30 -loop 1 -i I:\1to2video\link.jpg -pix_fmt yuv420p -vcodec libx264 -
 ffmpeg -f concat -i I:\1to2video\filelist.txt -c copy out.mp4
 
 python outvideo.py src out a.mp4
+
+1. 视频不匹配问题；
+2. 选择在原视频上添加片头或者片尾；
+3. 水印 （动起来，random的位置）；
