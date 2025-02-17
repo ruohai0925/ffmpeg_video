@@ -146,7 +146,8 @@ if __name__ == '__main__':
               '\tout-输出目录\n'
               '\tfile-处理文件\n'
               '\tmode-处理模式:\n'
-              '\t\ta-后缀视频\tp-前缀视频[p3处理文件要为mp4格式视频]\n'
-              '\t\tw-添加移动水印[p3处理文件要为png格式图片]\n')
+              '\t\ta-后缀视频\t[file处理文件要为mp4格式视频]\n'
+              '\t\tp-前缀视频\t[file处理文件要为mp4格式视频]\n'
+              '\t\tw-添加移动水印\t[file处理文件要为png格式图片]\n')
     else:
         deal_path()
